@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C952EE2A-6695-4EF2-A2F2-C4134C5A9D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B7E8A454-6CB0-49BA-A437-8486F9CAA630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHubGame.Services.UserAPI", "TheHubGame.Services.UserAPI\TheHubGame.Services.UserAPI.csproj", "{3C16941E-7941-4B88-9CD1-B21C2283627D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C16941E-7941-4B88-9CD1-B21C2283627D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C16941E-7941-4B88-9CD1-B21C2283627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C16941E-7941-4B88-9CD1-B21C2283627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C16941E-7941-4B88-9CD1-B21C2283627D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C16941E-7941-4B88-9CD1-B21C2283627D} = {C952EE2A-6695-4EF2-A2F2-C4134C5A9D55}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB613D4B-ED34-4AFE-B700-4AAECC73B97E}
+	EndGlobalSection
+EndGlobal
